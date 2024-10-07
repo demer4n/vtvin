@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav ul li a {
+            text-decoration: none;
+            color:  #0b56ea;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        nav ul li span {
+            color: #333;
+        }
+
+        nav ul {
+            padding-right: 2px;
+            padding-left: 2px;
+            list-style-type: none;
+            margin: 3px;
+        }
+
+        nav ul li {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: inline-block;
+        }
+
+        .link::after {
+            margin: 7px;
+            padding: 0;
+            content: " >";
+        }
+
+        nav {
+            border-color: #0b56ea;
+            width: max-content;
+            border-width: 1px;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="link"><a href="#">Main</a></li>
+            <li class="link"><a href="#">Categories</a></li>
+            <li><span>Product</span></li>
+        </ul>
+    </nav>
+</body>
+</html>

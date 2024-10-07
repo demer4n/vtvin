@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table td, .table th{
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+        }
+        .table{
+            border-collapse: collapse; /* Объединение границ таблицы */
+        }
+        .table thead{
+            background-color: #f0f1f4;
+        }
+        .table tfoot{
+            background-color: #121212;
+            color:#fff;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>№</th><th>Имя</th><th>E-mail</th><th>Пол</th><th>Дата</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td><td>Вася Пупкин</td><td>fdgdfg@mail.ru</td><td>Мужской</td><td>12.12.2012</td>
+            </tr>
+            <tr>
+                <td>2</td><td>Леха Сосед</td><td>lehalllon@gmail.com</td><td>Мужской</td><td>30.12.2019</td>
+            </tr>
+            <tr>
+                <td>3</td><td>Егор Козел</td><td>kozelhay@gmail.com</td><td>Мужской</td><td>01.01.2001</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Всего:3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
