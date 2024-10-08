@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+.title{
+    font-size: 40px;
+    color: #f03333;
+    line-height: 1.2; /* межстрочный отступ */
+    text-transform: uppercase; /* все буквы заглавные */
+}
+.subtitle{
+    font-size: 30px;
+    color: #12ac11;
+    line-height: 1.2;
+    text-decoration: underline;
+}
+.list{
+    font-size: 20px;
+    color:#444;
+    font-style: italic;
+    list-style-type: square;
+}

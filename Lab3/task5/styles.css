@@ -1,0 +1,53 @@
+/*button {
+    height: 40px;
+    width: 40px;
+    background-color: #ddd;
+    color: #333;
+    margin: 6px;
+    border: 0;
+}
+
+.now {
+    background-color: #d10953;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #ccc;
+}*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.pagination {
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+    margin: 0 3px; /* Половина расстояния между элементами */
+    border-radius: 5px; /* Опционально, для скругления */
+    font-size: 18px; /* Размер шрифта для стрелок и номеров */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+.nav-item:hover {
+    background-color: #ccc; /* Цвет фона при наведении */
+}
+
+.nav-item.active {
+    background-color: #d10953; /* Цвет фона для активного элемента */
+    color: #fff; /* Цвет текста для активного элемента */
+}
